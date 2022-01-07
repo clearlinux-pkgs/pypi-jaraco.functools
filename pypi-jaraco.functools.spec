@@ -17,7 +17,7 @@ BuildRequires : buildreq-distutils3
 Provides: jaraco.functools
 Provides: jaraco.functools-python
 Provides: jaraco.functools-python3
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py-python
 BuildRequires : pypi(more_itertools)
 BuildRequires : pypi(setuptools)
@@ -25,7 +25,7 @@ BuildRequires : pypi(setuptools_scm)
 BuildRequires : pytest
 BuildRequires : setuptools_scm
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 .. image:: https://img.shields.io/pypi/v/jaraco.functools.svg
