@@ -4,7 +4,7 @@
 #
 Name     : pypi-jaraco.functools
 Version  : 3.5.2
-Release  : 49
+Release  : 50
 URL      : https://files.pythonhosted.org/packages/b4/ea/9abca360081de9157668fcc52765989158aaf29b4826f26fcb17852d08e6/jaraco.functools-3.5.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/b4/ea/9abca360081de9157668fcc52765989158aaf29b4826f26fcb17852d08e6/jaraco.functools-3.5.2.tar.gz
 Summary  : Functools like those found in stdlib
