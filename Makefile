@@ -1,5 +1,5 @@
 PKG_NAME := pypi-jaraco.functools
-URL = https://files.pythonhosted.org/packages/a9/9b/5da438f6734ad7bc13ae1ab5d14329526f2c93b122d89482cb24bad97714/jaraco.functools-3.7.0.tar.gz
+URL = https://files.pythonhosted.org/packages/99/62/3c214a2a6143701690af6a6687f324af93f6cb0222eee6dddd8196fcfd05/jaraco.functools-3.8.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
