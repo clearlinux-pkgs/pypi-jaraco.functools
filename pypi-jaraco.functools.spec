@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-jaraco.functools
-Version  : 3.8.1
-Release  : 54
-URL      : https://files.pythonhosted.org/packages/7f/52/1192cd48a506cd8da5d4db77eeb91c16c717eec0325fd2f83f8bdca50dfd/jaraco.functools-3.8.1.tar.gz
-Source0  : https://files.pythonhosted.org/packages/7f/52/1192cd48a506cd8da5d4db77eeb91c16c717eec0325fd2f83f8bdca50dfd/jaraco.functools-3.8.1.tar.gz
+Version  : 3.9.0
+Release  : 55
+URL      : https://files.pythonhosted.org/packages/e6/f7/97322b08780ac7f783893991a1ed2a0a8b9c729d06350e2a1c6e7f8687cb/jaraco.functools-3.9.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/e6/f7/97322b08780ac7f783893991a1ed2a0a8b9c729d06350e2a1c6e7f8687cb/jaraco.functools-3.9.0.tar.gz
 Summary  : Functools like those found in stdlib
 Group    : Development/Tools
 License  : MIT
@@ -59,10 +59,10 @@ python3 components for the pypi-jaraco.functools package.
 
 
 %prep
-%setup -q -n jaraco.functools-3.8.1
-cd %{_builddir}/jaraco.functools-3.8.1
+%setup -q -n jaraco.functools-3.9.0
+cd %{_builddir}/jaraco.functools-3.9.0
 pushd ..
-cp -a jaraco.functools-3.8.1 buildavx2
+cp -a jaraco.functools-3.9.0 buildavx2
 popd
 
 %build
@@ -70,7 +70,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1691427619
+export SOURCE_DATE_EPOCH=1693251593
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 export FCFLAGS="$FFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
